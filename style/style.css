@@ -1,3 +1,11 @@
 p{
     color: yellowgreen;
+    background-color: wheat;
+    /* padding: 10px 20px; */
+    margin: 10px;
+}
+h1{
+    /* text-align: center; */
+    background-color: skyblue;
+    padding: 30px,30px,30px,30px;
 }
