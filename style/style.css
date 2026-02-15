@@ -1,11 +1,75 @@
-p{
-    color: yellowgreen;
-    background-color: wheat;
-    /* padding: 10px 20px; */
-    margin: 10px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
 }
-h1{
-    /* text-align: center; */
-    background-color: skyblue;
-    padding: 30px,30px,30px,30px;
+.hero{
+    background-image: url('../images/cow.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    clip-path: polygon(100% 0, 100% 43%, 100% 100%, 83% 95%, 14% 95%, 0 100%, 0% 43%, 0 0);
+}
+.hero h1{
+    color: aliceblue;
+    font-size: 300px;
+    text-align:center;
+    font-weight:900px;
+    /* margin-top: 60px; */
+    padding-top:150px;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 20px;
+    letter-spacing: 30px;
+}
+.article, #namefile{
+    width: 80%;
+    margin: auto;
+    margin: 60px auto;
+    background:linear-gradient(90deg,rgba(0, 128, 0, 0.514), rgb(235, 213, 213),rgba(0, 0, 0, 0.308));
+    padding: 20px 60px 60px 60px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:rgb(184, 80, 73) ;
+    
+    clip-path: polygon(100% 0, 100% 43%, 100% 100%, 83% 95%, 14% 95%, 0 100%, 0% 43%, 0 0);
+}
+.article h2, #namefile h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color:rgb(207, 26, 13) ;
+
+}.article p .imp{
+    color: red;
+    font-size: 2em;
+}
+.article p{
+font-size: 30px;
+line-height: 2em;
+}
+.images3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    /* padding: auto; */
+     
+    /* padding: 10%;
+    margin: 10%; */
+}
+.images3 div{
+  width: 800px;
+  margin: 20px;
+  
+}
+.images3 img{
+    width: 100%;
 }
